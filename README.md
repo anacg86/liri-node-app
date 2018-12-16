@@ -26,9 +26,13 @@ and the [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
 
    * [DotEnv](https://www.npmjs.com/package/dotenv)
 
+###Link Github
+https://github.com/anacg86/liri-node-app
+
+###Screenshots and video
+assets/images
+
 ###Authors
 Ana Cardenas
 
-###License
-This project is licensed under the MIT License - see the LICENSE.md file for details
 
