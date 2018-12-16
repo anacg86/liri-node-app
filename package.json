@@ -1,0 +1,27 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Project Title\r Liri the new app that will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.",
+  "main": "liri.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anacg86/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anacg86/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/anacg86/liri-node-app#readme"
+}
