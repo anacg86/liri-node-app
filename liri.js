@@ -53,16 +53,10 @@ function allcommands() {
          break;
 
       case "do-what-it-says":
-         /* Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-      
-         * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
-      
-         * Edit the text in random.txt to test out the feature for movie-this and concert-this.*/
          fs.readFile("random.txt", "utf8", function (error, data) {
             if (error) {
                return console.log(error);
             }
-
             var dataArr = data.split(",");
             var operator = dataArr[0];
             var parameter = dataArr[1];
@@ -72,6 +66,9 @@ function allcommands() {
                   break;
                case "movie-this":
                   movieThis(parameter);
+                  break;
+               case "concert-this":
+                  concertThis(band);
                   break;
             }
          });
